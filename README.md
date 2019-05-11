@@ -1,2 +1,2 @@
-# automated-video-creator
-automated video creator
+# criador-de-videos-automatizado
+criador de videos automatizado
