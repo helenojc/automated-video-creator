@@ -1,0 +1,13 @@
+{
+	"algorithmia":{
+		"key":"simYjstkWqzdsE1PnMyaFCWCewd1"
+	}, 
+	"ibm-cloud":{
+		"apikey": "-ECZTOEVO-wXHhh0PQ4DeAHlJ-kbywTyYAS6toNAa5In",
+		"iam_apikey_description": "Auto-generated for key a52c36b8-0b4a-41bf-bc4f-58979f9b5dca",
+		"iam_apikey_name": "Auto-generated service credentials",
+		"iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+		"iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/d92598480b0740b08e5050ece4c137ec::serviceid:ServiceId-f7232b13-a365-42b8-a967-171b52f29b1d",
+		"url": "https://gateway.watsonplatform.net/natural-language-understanding/api"
+	}
+}

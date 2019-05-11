@@ -6,7 +6,9 @@ var robots = {
 
 async function start() { 
 
-	var content = {};
+	var content = {
+		maximumSentences:1,
+	};
 	content.search = askAndReturnSearchTerm(); 
 	content.prefix = pergunte_e_retorne_o_prefixo();
 
