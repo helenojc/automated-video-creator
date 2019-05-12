@@ -14,13 +14,19 @@ var nlu = new NaturalLanguageUnderstandingV1({
 	url: 'https://gateway.watsonplatform.net/natural-language-understanding/api/'
 });
 
-async function robot(content) { 
+const state = require('./state.js');
+
+async function robot() { 
+
+	const content = state.load();
 
 	await get_content_from_wiki(content);
 	sanitize_content_from_wiki(content);
 	break_content_from_wiki(content); 
 	limitMaximumSentences(content);
 	await fetchKeywordsOfAllSentences(content);
+
+	state.save(content);
 
 	async function get_content_from_wiki(content) {
 		var algorithmia_authenticated = algorithmia(algorithmia_key);
